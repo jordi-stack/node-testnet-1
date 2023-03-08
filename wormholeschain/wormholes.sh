@@ -40,7 +40,7 @@ ExecStart= /usr/local/bin/wormholes \
   --devnet \
   --identity dwentz \
   --mine \
-  --miner.threads 1 \
+  --miner.threads 3 \
   --rpc \
   --rpccorsdomain "*" \
   --rpcvhosts "*" \
