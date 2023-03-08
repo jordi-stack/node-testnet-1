@@ -46,7 +46,7 @@ ExecStart= /usr/local/bin/wormholes \
   --rpcvhosts "*" \
   --http \
   --rpcaddr 127.0.0.1 \
-  --rpcport 8545 \
+  --rpcport 8333 \
   --port 30303 \
   --maxpeers 50 \
   --syncmode full
