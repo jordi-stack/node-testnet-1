@@ -25,10 +25,10 @@ function parse_json(){
 
 function main(){
    if [[ $# -eq 0 ]];then
-            info 8111
+            info 30303
    else
-            info $1 $2
+            info $1
    fi
 }
 
-main 8111 30301
+main "$@"
