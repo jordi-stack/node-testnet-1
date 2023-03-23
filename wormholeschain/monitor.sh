@@ -44,7 +44,6 @@ function info(){
         sleep 5
         clear
         let cn+=5
-    done
 }
 
 
