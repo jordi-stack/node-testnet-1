@@ -32,7 +32,7 @@ function info(){
         if [[ $count == 0x0 ]]; then
             sleep 5
             continue
-        fi
+        if
         echo "Number of node connections: $((16#${count:2}))"
         rs2=$(curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":64}' 127.0.0.1:$1 2>/dev/null)
         blckNumber=$(parse_json "$rs2" "result")
