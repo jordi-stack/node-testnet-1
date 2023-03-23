@@ -25,7 +25,7 @@ function parse_json(){
 
 function main(){
    if [[ $# -eq 0 ]];then
-            info 30303
+            info 8101
    else
             info $1
    fi
